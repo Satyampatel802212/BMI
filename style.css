@@ -1,0 +1,104 @@
+body{
+    margin:3px;
+    padding:50px;
+     background-color: rgb(156, 96, 18) ;
+
+}
+.container{
+    padding:100px;
+    margin:100px;
+    border: 2px solid green;
+    background-color: blanchedalmond;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 30%;
+    
+}
+.weight,.height,.age{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    justify-content: start;
+   
+}
+#weight-input{
+    width:30%;
+    height:20%;
+    padding: 0.4rem;
+}
+#height-input{
+    width:20%;
+    height:20%;
+    padding: 0.4rem;
+}
+#height-put{
+    width:20%;
+    height:20%;
+    padding: 0.4rem;
+}
+#age-input{
+    width:30%;
+    height:20%;
+    padding: 0.4rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    
+}
+#search_btn{
+   padding: 0.4rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.stats,.age_output,.gender_output,.output{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    background-color: rgba(238, 236, 230, 0.836);
+    height: 60px;
+    width:70%;
+    align-items: center;
+    visibility: hidden;
+}
+.output{
+    color: white;
+}
+.results{
+    display: flex;
+
+}
+.radio_btn{
+    padding: 15px;
+    display: flex;
+    width: fit-content;
+     border: 1px solid rgb(199, 133, 11);
+     gap: 0.3rem;
+}
+
+.age{
+    gap: 2rem;
+}
+.inuifootspan{margin-left:-35px;
+    margin-top: 6px;;
+    color:#888;
+}
+
+.inufootspan{margin-left:-35px;
+        margin-top: 6px;;
+        color:#888;
+    }
+.inifootspan{margin-left:-45px;
+            margin-top: 6px;;
+            color:#888;
+}
+.inifootpan{margin-left:-56px;
+    margin-top: 6px;;
+    color:#888;}
+
+

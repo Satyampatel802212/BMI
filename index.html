@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+<div class="container">
+    <h1>BMI Calculator</h1>
+    <div class="form">
+     <div class="weight">
+    <p>Weight:- </p>
+    <input type="text"  id="weight-input">
+    <span class="inuifootspan">kg</span>
+     </div>
+     <div class="height">
+        <p>Height:- </p>
+    <input type="text" id="height-input">
+    <span class="inufootspan">fts</span>
+    <input type="text" id="height-put">
+    <span class="inifootspan">inch</span>
+     </div>
+     <div class="age">
+        <p>Age:- </p>
+        <input type="text" id="age-input">
+        <span class="inifootpan">Yrs</span>
+     </div>
+
+     <div class="radio_btn">
+        <p>Gender:- </p>
+
+
+      <label><input type="radio" id="html" name="fav_language" value="Male">
+ Male</label>
+  <label><input type="radio" id="html" name="fav_language" value="Female">
+  Female</label>
+
+
+     </div>
+    <div class="btn"><button id="search_btn">Calculate</button></div>
+   
+    <div class="stats">
+      
+        <div>BMI: </div>
+     
+     <div class="results">
+     
+    </div>  
+    </div>
+    <div class="age_output">
+        <div>Age: </div>
+        <div class="age_out"></div>
+    </div>
+    <div class="gender_output">
+        <div>Gender: </div>
+        <div class="gender_out"></div>
+    </div>
+    <div class="output"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
